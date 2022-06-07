@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "b6a78e66-13c9-4b48-9c7d-9c108d0384ae",
+      safari_web_id: "",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 img {
