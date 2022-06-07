@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onlineking24 SMP</title>
+<link rel="stylesheet" href="files/bootstrap.min.css" />
+<link rel="stylesheet" href="files/main.css" />
+<link rel="stylesheet" href="files/style.css" />
+<link rel="stylesheet" href="files/css.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+          <script type="text/javascript">
+    
+    $(document).ready(function(){
+      //jquery for toggle sub menus
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.dropdown').toggleClass('rotate');
+      });
+
+      //jquery for expand and collapse the sidebar
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+      });
+
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
+      });
+    });
+    </script>
+</head>
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+          <br>
+<div class="menu-btn">
+      <i class="fas fa-bars"></i>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+        </div>
+      </div>
+          </div>
+    <div class="side-bar">
+      <div class="close-btn">
+        <i class="fas fa-times"></i>
+      </div>
+
+      <div class="menu">
+        <div class="item"><a href="../"><i class="fas fa-home"></i>Home</a></div>
+        <div class="item"><a href="../about"><i class="fas fa-info-circle"></i>Rules</a></div>
+     <div class="item"><a href="../rules"><i class="fas fa-book"></i>Rules</a></div>
+   
+    </nav>
+    
+    
+<div class="hero-image">
+  <div class="hero-text">
+  	<font face="Minercraftory" size="6px">About</font>
+<br><br>
+<button onclick = "location.href='minecraft://?addExternalServer=OnlineKing24|play.onlineking24.ga:4054'" class="button-85" role="button">Join Now</button>
+  </div>
+</div>
