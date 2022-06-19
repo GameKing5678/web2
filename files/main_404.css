@@ -3,6 +3,8 @@ body, html {
   height: 100%;
   margin: 0;
 }
+body {background-color: coral;}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../files/img1.jpg");
   height: 50%;
