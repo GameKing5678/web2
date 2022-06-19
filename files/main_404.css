@@ -7,7 +7,7 @@ body {background-color: #1F1F1F;}
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../files/img1.jpg");
-  height: 50%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
